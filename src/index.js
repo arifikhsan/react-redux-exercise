@@ -1,4 +1,6 @@
-import { markProductAsDiscount, productAdded } from './store/product/action';
+// import { markProductAsDiscount, productAdded } from './store/product/action'; // folder approach
+import { markProductAsDiscount, productAdded } from './store/product'; // file approach
+
 import store from './store/store';
 
 store.subscribe(() => {
