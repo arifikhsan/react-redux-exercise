@@ -10,6 +10,7 @@ store.subscribe(() => {
 });
 
 store.dispatch(userAdded({ name: 'slamet', balance: 999999 }));
+store.dispatch(userAdded({ name: 'yanto', balance: -999999 }));
 
 store.dispatch(productAdded({ name: 'Product 1', price: 500 }));
 store.dispatch(productAdded({ name: 'Product 2', price: 1000 }));
