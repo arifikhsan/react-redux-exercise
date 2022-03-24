@@ -17,3 +17,4 @@ store.dispatch(productMarkAsDiscount({ id: 1, hasDiscount: true }));
 
 store.dispatch(productCartAdded({ productId: 1, quantity: 2 }));
 store.dispatch(productCartAdded({ productId: 2, quantity: 1 }));
+store.dispatch(productCartRemoved({ id: 2 }));
