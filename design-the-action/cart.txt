@@ -1,0 +1,28 @@
+{
+  type: "productAddedToCart",
+  payload: {
+    quantity: 4,
+    product: {
+      id: 1
+    }
+  }
+}
+
+{
+  type: "productQuantityUpdatedOnCart",
+  payload: {
+    quantity: 3,
+    product: {
+      id: 1
+    }
+  }
+}
+
+{
+  type: "productRemovedFromCart",
+  payload: {
+    product: {
+      id: 1
+    }
+  }
+}

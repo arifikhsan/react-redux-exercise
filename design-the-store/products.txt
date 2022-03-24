@@ -1,7 +1,8 @@
 [
   {
     id: 1,
-    name: "3d camera",
+    name: "3D Camera",
+    description: "Fancy 3D Camera",
     price: 1500,
     quantity: 40,
     variants: ["black", "white"]
