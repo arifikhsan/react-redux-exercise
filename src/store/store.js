@@ -1,9 +1,11 @@
-import { devToolsEnhancer } from '@redux-devtools/extension';
-import { createStore } from 'redux';
+// import { devToolsEnhancer } from '@redux-devtools/extension';
+// import { createStore } from 'redux';
 // import reducer from './product/reducer'; // folder approach
+import reducer from './product';
+// const store = createStore(reducer, devToolsEnhancer({ trace: true }));
 
-import { reducer } from './product';
+import { configureStore } from '@reduxjs/toolkit';
 
-const store = createStore(reducer, devToolsEnhancer({ trace: true }));
+const store = configureStore({ reducer });
 
 export default store;
