@@ -1,0 +1,9 @@
+[
+  {
+    id: 1,
+    name: "3d camera",
+    price: 1500,
+    quantity: 40,
+    variants: ["black", "white"]
+  }
+]

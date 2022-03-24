@@ -1,0 +1,6 @@
+{
+  id: 1,
+  name: "slamet",
+  username: "slamet",
+  balance: 9999999,
+}
