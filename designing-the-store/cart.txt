@@ -5,6 +5,6 @@
     id: 1,
     name: "3D Camera"
     quantity: 2,
-    variant: 'black'
+    variant: "black"
   }
 }
