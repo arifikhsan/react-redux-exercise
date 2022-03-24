@@ -1,5 +1,5 @@
-import { markProductAsDiscount, productAdded } from './action';
-import store from './store';
+import { markProductAsDiscount, productAdded } from './store/product/action';
+import store from './store/store';
 
 store.subscribe(() => {
   console.log('Store changed!', store.getState());
